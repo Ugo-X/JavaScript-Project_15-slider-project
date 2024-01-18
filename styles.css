@@ -192,6 +192,11 @@ Slider
   overflow: hidden;
   margin-top: 4rem;
 }
+@media screen and (min-width: 500px){
+  .slider-container{
+    height: 50vh;
+}
+  
 .slide {
   position: absolute;
   width: 100%;
